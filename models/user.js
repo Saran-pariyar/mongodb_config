@@ -11,7 +11,7 @@ const userSchema = new Schema(
   }
 );
 
-//checks if model named Topic already exists or not in mongoose application
+//checks if model named user already exists or not in mongoose application
 const User = mongoose.models.User || mongoose.model("User", userSchema);
 
 export default User;
